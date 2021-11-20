@@ -15,7 +15,6 @@ public class Utils {
 
         email = email.trim();
 
-
         Matcher matcher = VALID_EMAIL_ADDRESS_REGEX.matcher(email);
         return matcher.find();
 
